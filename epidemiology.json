@@ -120,7 +120,7 @@
     {
       "code": "DE",
       "cases": 2848,
-      "deaths": 5,
+      "deaths": 4,
       "casesConfirmed": 2848,
       "casesSuspected": 0,
       "casesContact": 20,
@@ -133,9 +133,12 @@
         "h72": null,
         "d7": 48,
         "d30": 188,
-        "deathsd30": 2
+        "deathsd30": 1
       },
-      "lastReport": "2025-05-14"
+      "lastReport": "2025-05-14",
+      "strain": "Puumala",
+      "activeStrain": false,
+      "strainNote": "Pic saisonnier Puumala 2025 : 188 cas/30j, 1 décès rapporté par la presse (DPA), en attente de confirmation RKI officielle."
     },
     {
       "code": "FR",
@@ -345,93 +348,14 @@
         "d30": null
       },
       "lastReport": "2025-03-01"
-    },
-    {
-      "code": "NL",
-      "cases": 3,
-      "deaths": 2,
-      "casesConfirmed": 3,
-      "casesSuspected": 0,
-      "casesContact": 25,
-      "dataQuality": "high",
-      "alertLevel": "critical",
-      "trend": "increasing",
-      "periods": {
-        "today": null,
-        "h24": null,
-        "h72": null,
-        "d7": 3,
-        "d30": 3,
-        "deathsd30": 2
-      },
-      "lastReport": "2025-05-14"
-    },
-    {
-      "code": "GB",
-      "cases": 2,
-      "deaths": 1,
-      "casesConfirmed": 2,
-      "casesSuspected": 0,
-      "casesContact": 22,
-      "dataQuality": "high",
-      "alertLevel": "critical",
-      "trend": "increasing",
-      "periods": {
-        "today": null,
-        "h24": null,
-        "h72": null,
-        "d7": 2,
-        "d30": 2,
-        "deathsd30": 1
-      },
-      "lastReport": "2025-05-11"
-    },
-    {
-      "code": "CH",
-      "cases": 1,
-      "deaths": 1,
-      "casesConfirmed": 1,
-      "casesSuspected": 0,
-      "casesContact": 18,
-      "dataQuality": "high",
-      "alertLevel": "critical",
-      "trend": "stable",
-      "periods": {
-        "today": null,
-        "h24": null,
-        "h72": null,
-        "d7": 1,
-        "d30": 1,
-        "deathsd30": 1
-      },
-      "lastReport": "2025-05-11"
-    },
-    {
-      "code": "ES",
-      "cases": 1,
-      "deaths": 0,
-      "casesConfirmed": 1,
-      "casesSuspected": 0,
-      "casesContact": 17,
-      "dataQuality": "high",
-      "alertLevel": "high",
-      "trend": "stable",
-      "periods": {
-        "today": null,
-        "h24": null,
-        "h72": null,
-        "d7": 1,
-        "d30": 1
-      },
-      "lastReport": "2025-05-11"
     }
   ],
   "globalStats": {
-    "totalCases": 7736,
-    "totalDeaths": 1371,
+    "totalCases": 7728,
+    "totalDeaths": 1366,
     "lethalityRate": 17.7,
-    "activeOutbreaks": 13,
-    "countriesAffected": 38,
+    "activeOutbreaks": 9,
+    "countriesAffected": 34,
     "source": "OMS, CDC, PAHO, ECDC, ministeres de la sante nationaux",
     "periodData": {
       "today": {
@@ -451,13 +375,14 @@
       },
       "d7": {
         "available": true,
-        "cases": 72,
+        "cases": 65,
         "deaths": null
       },
       "d30": {
         "available": true,
-        "cases": 296,
-        "deaths": 6
+        "cases": 289,
+        "deaths": 1,
+        "note": "Cumul des cas signalés sur les 30 derniers jours (OMS, PAHO, ECDC). Décès confirmé par la presse : 1 (DE — pic saisonnier Allemagne, DPA)."
       },
       "y1": {
         "available": true,
@@ -470,5 +395,6 @@
         "deaths": null
       }
     }
-  }
+  },
+  "lastUpdated": "2026-05-14T23:42:35.124Z"
 }
