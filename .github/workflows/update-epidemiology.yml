@@ -1,10 +1,13 @@
 name: Update Epidemiology Data
 
 on:
-  schedule:
-    # Tous les jours à 06:00 UTC
-    - cron: '0 6 * * *'
-  workflow_dispatch:  # Allow manual trigger
+  # Cron désactivé — le script GDELT utilisait des comptages d'articles
+  # comme proxy de cas (ex: 250 articles = d7:250), ce qui produisait
+  # des valeurs complètement fausses. Réactiver uniquement après refonte
+  # du script avec une source officielle de cas (WHO GHO, PAHO API).
+  # schedule:
+  #   - cron: '0 6 * * *'
+  workflow_dispatch:  # Déclenchement manuel uniquement
 
 permissions:
   contents: write
