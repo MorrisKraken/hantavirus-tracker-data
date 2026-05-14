@@ -1,7 +1,7 @@
 {
-  "version": "2.1",
-  "generatedAt": "2026-05-14T12:12:57.185780+00:00",
-  "generatedBy": "github-actions",
+  "version": "3.0",
+  "generatedAt": "2026-05-14T20:53:52.544Z",
+  "generatedBy": "manual-verified",
   "countries": [
     {
       "code": "AR",
@@ -14,8 +14,11 @@
       "alertLevel": "high",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 3,
+        "d30": 12
       },
       "lastReport": "2025-05-09"
     },
@@ -30,8 +33,11 @@
       "alertLevel": "high",
       "trend": "increasing",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 5,
+        "d30": 19
       },
       "lastReport": "2025-05-08"
     },
@@ -46,8 +52,11 @@
       "alertLevel": "high",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 2,
+        "d30": 9
       },
       "lastReport": "2025-05-06"
     },
@@ -62,8 +71,11 @@
       "alertLevel": "medium",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 1,
+        "d30": 4
       },
       "lastReport": "2025-05-01"
     },
@@ -78,8 +90,11 @@
       "alertLevel": "medium",
       "trend": "decreasing",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 2
       },
       "lastReport": "2025-04-28"
     },
@@ -94,26 +109,33 @@
       "alertLevel": "medium",
       "trend": "stable",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 1
       },
       "lastReport": "2025-04-15"
     },
     {
       "code": "DE",
-      "cases": 2847,
-      "deaths": 3,
-      "casesConfirmed": 2847,
+      "cases": 2848,
+      "deaths": 5,
+      "casesConfirmed": 2848,
       "casesSuspected": 0,
       "casesContact": 20,
       "dataQuality": "high",
       "alertLevel": "medium",
       "trend": "increasing",
       "periods": {
-        "d7": 250,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 48,
+        "d30": 188,
+        "deathsd30": 2
       },
-      "lastReport": "2025-05-05"
+      "lastReport": "2025-05-14"
     },
     {
       "code": "FR",
@@ -126,8 +148,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 1
       },
       "lastReport": "2025-04-30"
     },
@@ -142,8 +167,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 4,
+        "d30": 18
       },
       "lastReport": "2025-05-02"
     },
@@ -158,8 +186,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 2,
+        "d30": 9
       },
       "lastReport": "2025-04-25"
     },
@@ -174,8 +205,11 @@
       "alertLevel": "medium",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": null,
+        "d30": null
       },
       "lastReport": "2025-03-31"
     },
@@ -190,8 +224,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 250,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": null,
+        "d30": null
       },
       "lastReport": "2025-04-01"
     },
@@ -206,8 +243,11 @@
       "alertLevel": "medium",
       "trend": "stable",
       "periods": {
-        "d30": 0,
-        "d7": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": null,
+        "d30": 22
       },
       "lastReport": "2025-04-10"
     },
@@ -222,8 +262,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 1
       },
       "lastReport": "2025-04-20"
     },
@@ -238,8 +281,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 1
       },
       "lastReport": "2025-04-05"
     },
@@ -254,8 +300,11 @@
       "alertLevel": "medium",
       "trend": "stable",
       "periods": {
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 0,
-        "d30": 0
+        "d30": 2
       },
       "lastReport": "2025-04-12"
     },
@@ -270,8 +319,11 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": null,
+        "d30": null
       },
       "lastReport": "2025-02-28"
     },
@@ -286,29 +338,33 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": null,
+        "d30": null
       },
       "lastReport": "2025-03-01"
     },
     {
       "code": "NL",
       "cases": 3,
-      "deaths": 1,
-      "casesConfirmed": 2,
-      "casesSuspected": 1,
+      "deaths": 2,
+      "casesConfirmed": 3,
+      "casesSuspected": 0,
       "casesContact": 25,
       "dataQuality": "high",
       "alertLevel": "critical",
       "trend": "increasing",
       "periods": {
-        "today": 3,
-        "h24": 3,
-        "h72": 3,
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 3,
+        "d30": 3,
+        "deathsd30": 2
       },
-      "lastReport": "2025-05-11"
+      "lastReport": "2025-05-14"
     },
     {
       "code": "GB",
@@ -321,11 +377,12 @@
       "alertLevel": "critical",
       "trend": "increasing",
       "periods": {
-        "today": 2,
-        "h24": 2,
-        "h72": 2,
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 2,
+        "d30": 2,
+        "deathsd30": 1
       },
       "lastReport": "2025-05-11"
     },
@@ -340,11 +397,12 @@
       "alertLevel": "critical",
       "trend": "stable",
       "periods": {
-        "today": 1,
-        "h24": 1,
-        "h72": 1,
-        "d7": 0,
-        "d30": 250
+        "today": null,
+        "h24": null,
+        "h72": null,
+        "d7": 1,
+        "d30": 1,
+        "deathsd30": 1
       },
       "lastReport": "2025-05-11"
     },
@@ -359,56 +417,57 @@
       "alertLevel": "high",
       "trend": "stable",
       "periods": {
-        "today": 1,
-        "h24": 1,
-        "h72": 1,
+        "today": null,
+        "h24": null,
+        "h72": null,
         "d7": 1,
         "d30": 1
-      },
-      "lastReport": "2025-05-11"
-    },
-    {
-      "code": "MARITIME",
-      "cases": 14,
-      "deaths": 2,
-      "casesConfirmed": 6,
-      "casesSuspected": 5,
-      "casesContact": 14,
-      "dataQuality": "high",
-      "alertLevel": "critical",
-      "trend": "increasing",
-      "periods": {
-        "today": 14,
-        "h24": 14,
-        "h72": 14,
-        "d7": 14,
-        "d30": 14
       },
       "lastReport": "2025-05-11"
     }
   ],
   "globalStats": {
-    "totalCases": 7735,
-    "totalDeaths": 1368,
+    "totalCases": 7736,
+    "totalDeaths": 1371,
     "lethalityRate": 17.7,
-    "activeOutbreaks": 7,
+    "activeOutbreaks": 13,
     "countriesAffected": 38,
-    "source": "OMS, CDC, PAHO, ECDC, ministères de la santé nationaux",
+    "source": "OMS, CDC, PAHO, ECDC, ministeres de la sante nationaux",
     "periodData": {
+      "today": {
+        "available": false,
+        "cases": null,
+        "deaths": null
+      },
+      "h24": {
+        "available": false,
+        "cases": null,
+        "deaths": null
+      },
+      "h72": {
+        "available": false,
+        "cases": null,
+        "deaths": null
+      },
       "d7": {
         "available": true,
-        "cases": 501,
-        "deaths": 22
+        "cases": 72,
+        "deaths": null
       },
       "d30": {
         "available": true,
-        "cases": 2001,
-        "deaths": 89
+        "cases": 296,
+        "deaths": 6
       },
       "y1": {
         "available": true,
-        "cases": 2247,
-        "deaths": 823
+        "cases": 811,
+        "deaths": null
+      },
+      "all": {
+        "available": true,
+        "cases": null,
+        "deaths": null
       }
     }
   }
