@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "generatedAt": "2026-05-14T01:48:59.729699+00:00",
+  "generatedAt": "2026-05-14T12:12:57.185780+00:00",
   "generatedBy": "github-actions",
   "countries": [
     {
@@ -31,7 +31,7 @@
       "trend": "increasing",
       "periods": {
         "d7": 0,
-        "d30": 250
+        "d30": 0
       },
       "lastReport": "2025-05-08"
     },
@@ -47,7 +47,7 @@
       "trend": "stable",
       "periods": {
         "d7": 0,
-        "d30": 250
+        "d30": 0
       },
       "lastReport": "2025-05-06"
     },
@@ -63,7 +63,7 @@
       "trend": "stable",
       "periods": {
         "d7": 0,
-        "d30": 0
+        "d30": 250
       },
       "lastReport": "2025-05-01"
     },
@@ -79,7 +79,7 @@
       "trend": "decreasing",
       "periods": {
         "d7": 0,
-        "d30": 250
+        "d30": 0
       },
       "lastReport": "2025-04-28"
     },
@@ -95,7 +95,7 @@
       "trend": "stable",
       "periods": {
         "d7": 0,
-        "d30": 250
+        "d30": 0
       },
       "lastReport": "2025-04-15"
     },
@@ -110,8 +110,8 @@
       "alertLevel": "medium",
       "trend": "increasing",
       "periods": {
-        "d7": 0,
-        "d30": 0
+        "d7": 250,
+        "d30": 250
       },
       "lastReport": "2025-05-05"
     },
@@ -126,8 +126,8 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 250,
-        "d30": 250
+        "d7": 0,
+        "d30": 0
       },
       "lastReport": "2025-04-30"
     },
@@ -143,7 +143,7 @@
       "trend": "stable",
       "periods": {
         "d7": 0,
-        "d30": 0
+        "d30": 250
       },
       "lastReport": "2025-05-02"
     },
@@ -190,7 +190,7 @@
       "alertLevel": "low",
       "trend": "stable",
       "periods": {
-        "d7": 0,
+        "d7": 250,
         "d30": 250
       },
       "lastReport": "2025-04-01"
@@ -271,7 +271,7 @@
       "trend": "stable",
       "periods": {
         "d7": 0,
-        "d30": 0
+        "d30": 250
       },
       "lastReport": "2025-02-28"
     },
@@ -325,7 +325,7 @@
         "h24": 2,
         "h72": 2,
         "d7": 0,
-        "d30": 0
+        "d30": 250
       },
       "lastReport": "2025-05-11"
     },
@@ -344,7 +344,7 @@
         "h24": 1,
         "h72": 1,
         "d7": 0,
-        "d30": 0
+        "d30": 250
       },
       "lastReport": "2025-05-11"
     },
@@ -397,12 +397,12 @@
     "periodData": {
       "d7": {
         "available": true,
-        "cases": 251,
+        "cases": 501,
         "deaths": 22
       },
       "d30": {
         "available": true,
-        "cases": 1751,
+        "cases": 2001,
         "deaths": 89
       },
       "y1": {
