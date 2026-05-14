@@ -1,271 +1,159 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2025-05-12T00:00:00Z",
-  "source": "OMS, CDC, PAHO, ECDC, RKI, ministères nationaux",
+  "version": "2.0",
+  "generatedAt": "2025-05-14T12:00:00.000Z",
+  "generatedBy": "manual",
   "countries": [
     {
-      "code": "AR",
-      "cases": 1203,
-      "deaths": 421,
-      "alertLevel": "high",
-      "trend": "stable",
-      "lastReport": "2025-05-09",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 3, "d30": 12 },
-      "historicalData": [
-        { "year": 2020, "cases": 68 }, { "year": 2021, "cases": 82 },
-        { "year": 2022, "cases": 95 }, { "year": 2023, "cases": 110 },
-        { "year": 2024, "cases": 127 }, { "year": 2025, "cases": 34 }
-      ]
+      "code": "AR", "cases": 1203, "deaths": 421,
+      "casesConfirmed": 1203, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "high", "trend": "stable",
+      "periods": { "d7": 3, "d30": 12 },
+      "lastReport": "2025-05-09"
     },
     {
-      "code": "CL",
-      "cases": 876,
-      "deaths": 289,
-      "alertLevel": "high",
-      "trend": "increasing",
-      "lastReport": "2025-05-08",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 5, "d30": 19 },
-      "historicalData": [
-        { "year": 2020, "cases": 51 }, { "year": 2021, "cases": 63 },
-        { "year": 2022, "cases": 74 }, { "year": 2023, "cases": 88 },
-        { "year": 2024, "cases": 102 }, { "year": 2025, "cases": 28 }
-      ]
+      "code": "CL", "cases": 876, "deaths": 289,
+      "casesConfirmed": 749, "casesSuspected": 127, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "high", "trend": "increasing",
+      "periods": { "d7": 5, "d30": 19 },
+      "lastReport": "2025-05-08"
     },
     {
-      "code": "BR",
-      "cases": 734,
-      "deaths": 287,
-      "alertLevel": "high",
-      "trend": "stable",
-      "lastReport": "2025-05-06",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 2, "d30": 9 },
-      "historicalData": [
-        { "year": 2020, "cases": 44 }, { "year": 2021, "cases": 52 },
-        { "year": 2022, "cases": 61 }, { "year": 2023, "cases": 70 },
-        { "year": 2024, "cases": 83 }, { "year": 2025, "cases": 21 }
-      ]
+      "code": "BR", "cases": 734, "deaths": 287,
+      "casesConfirmed": 734, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "high", "trend": "stable",
+      "periods": { "d7": 2, "d30": 9 },
+      "lastReport": "2025-05-06"
     },
     {
-      "code": "US",
-      "cases": 728,
-      "deaths": 248,
-      "alertLevel": "medium",
-      "trend": "stable",
-      "lastReport": "2025-05-01",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 1, "d30": 4 },
-      "historicalData": [
-        { "year": 2020, "cases": 38 }, { "year": 2021, "cases": 44 },
-        { "year": 2022, "cases": 52 }, { "year": 2023, "cases": 61 },
-        { "year": 2024, "cases": 70 }, { "year": 2025, "cases": 18 }
-      ]
+      "code": "US", "cases": 728, "deaths": 248,
+      "casesConfirmed": 728, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "medium", "trend": "stable",
+      "periods": { "d7": 1, "d30": 4 },
+      "lastReport": "2025-05-01"
     },
     {
-      "code": "DE",
-      "cases": 2847,
-      "deaths": 3,
-      "alertLevel": "medium",
-      "trend": "increasing",
-      "lastReport": "2025-05-05",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 48, "d30": 187 },
-      "historicalData": [
-        { "year": 2020, "cases": 142 }, { "year": 2021, "cases": 168 },
-        { "year": 2022, "cases": 195 }, { "year": 2023, "cases": 228 },
-        { "year": 2024, "cases": 267 }, { "year": 2025, "cases": 71 }
-      ]
+      "code": "PY", "cases": 102, "deaths": 31,
+      "casesConfirmed": 89, "casesSuspected": 13, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "medium", "trend": "decreasing",
+      "periods": { "d7": 0, "d30": 2 },
+      "lastReport": "2025-04-28"
     },
     {
-      "code": "FR",
-      "cases": 21,
-      "deaths": 0,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-04-30",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 1 },
-      "historicalData": [
-        { "year": 2020, "cases": 2 }, { "year": 2021, "cases": 3 },
-        { "year": 2022, "cases": 4 }, { "year": 2023, "cases": 5 },
-        { "year": 2024, "cases": 5 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "BO", "cases": 89, "deaths": 28,
+      "casesConfirmed": 71, "casesSuspected": 18, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "medium", "trend": "stable",
+      "periods": { "d7": 0, "d30": 1 },
+      "lastReport": "2025-04-15"
     },
     {
-      "code": "FI",
-      "cases": 340,
-      "deaths": 0,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-05-02",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 4, "d30": 18 },
-      "historicalData": [
-        { "year": 2020, "cases": 18 }, { "year": 2021, "cases": 22 },
-        { "year": 2022, "cases": 26 }, { "year": 2023, "cases": 31 },
-        { "year": 2024, "cases": 36 }, { "year": 2025, "cases": 10 }
-      ]
+      "code": "DE", "cases": 2847, "deaths": 3,
+      "casesConfirmed": 2847, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "medium", "trend": "increasing",
+      "periods": { "d7": 48, "d30": 187 },
+      "lastReport": "2025-05-05"
     },
     {
-      "code": "SE",
-      "cases": 190,
-      "deaths": 0,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-04-25",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 2, "d30": 9 },
-      "historicalData": [
-        { "year": 2020, "cases": 10 }, { "year": 2021, "cases": 13 },
-        { "year": 2022, "cases": 15 }, { "year": 2023, "cases": 18 },
-        { "year": 2024, "cases": 21 }, { "year": 2025, "cases": 6 }
-      ]
+      "code": "FR", "cases": 21, "deaths": 0,
+      "casesConfirmed": 19, "casesSuspected": 2, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "low", "trend": "stable",
+      "periods": { "d7": 0, "d30": 1 },
+      "lastReport": "2025-04-30"
     },
     {
-      "code": "RU",
-      "cases": 312,
-      "deaths": 8,
-      "alertLevel": "medium",
-      "trend": "stable",
-      "lastReport": "2025-04-10",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": null, "d30": 22 },
-      "historicalData": [
-        { "year": 2020, "cases": 18 }, { "year": 2021, "cases": 21 },
-        { "year": 2022, "cases": 25 }, { "year": 2023, "cases": 29 },
-        { "year": 2024, "cases": 34 }, { "year": 2025, "cases": 9 }
-      ]
+      "code": "FI", "cases": 340, "deaths": 0,
+      "casesConfirmed": 340, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "low", "trend": "stable",
+      "periods": { "d7": 4, "d30": 18 },
+      "lastReport": "2025-05-02"
     },
     {
-      "code": "CN",
-      "cases": 87,
-      "deaths": 12,
-      "alertLevel": "medium",
-      "trend": "stable",
-      "lastReport": "2025-03-31",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": null, "d30": null },
-      "historicalData": [
-        { "year": 2020, "cases": 5 }, { "year": 2021, "cases": 6 },
-        { "year": 2022, "cases": 7 }, { "year": 2023, "cases": 8 },
-        { "year": 2024, "cases": 9 }, { "year": 2025, "cases": 2 }
-      ]
+      "code": "SE", "cases": 190, "deaths": 0,
+      "casesConfirmed": 190, "casesSuspected": 0, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "low", "trend": "stable",
+      "periods": { "d7": 2, "d30": 9 },
+      "lastReport": "2025-04-25"
     },
     {
-      "code": "PY",
-      "cases": 102,
-      "deaths": 31,
-      "alertLevel": "medium",
-      "trend": "decreasing",
-      "lastReport": "2025-04-28",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 2 },
-      "historicalData": [
-        { "year": 2020, "cases": 8 }, { "year": 2021, "cases": 10 },
-        { "year": 2022, "cases": 12 }, { "year": 2023, "cases": 14 },
-        { "year": 2024, "cases": 16 }, { "year": 2025, "cases": 3 }
-      ]
+      "code": "CN", "cases": 87, "deaths": 12,
+      "casesConfirmed": 87, "casesSuspected": null, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "medium", "trend": "stable",
+      "periods": {},
+      "lastReport": "2025-03-31"
     },
     {
-      "code": "BO",
-      "cases": 89,
-      "deaths": 28,
-      "alertLevel": "medium",
-      "trend": "stable",
-      "lastReport": "2025-04-15",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 1 },
-      "historicalData": [
-        { "year": 2020, "cases": 5 }, { "year": 2021, "cases": 7 },
-        { "year": 2022, "cases": 9 }, { "year": 2023, "cases": 11 },
-        { "year": 2024, "cases": 13 }, { "year": 2025, "cases": 2 }
-      ]
+      "code": "KR", "cases": 45, "deaths": 1,
+      "casesConfirmed": 45, "casesSuspected": null, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "low", "trend": "stable",
+      "periods": {},
+      "lastReport": "2025-04-01"
     },
     {
-      "code": "PE",
-      "cases": 47,
-      "deaths": 14,
-      "alertLevel": "medium",
-      "trend": "stable",
-      "lastReport": "2025-04-12",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 2 },
-      "historicalData": [
-        { "year": 2020, "cases": 3 }, { "year": 2021, "cases": 4 },
-        { "year": 2022, "cases": 5 }, { "year": 2023, "cases": 6 },
-        { "year": 2024, "cases": 7 }, { "year": 2025, "cases": 2 }
-      ]
+      "code": "RU", "cases": 312, "deaths": 8,
+      "casesConfirmed": 312, "casesSuspected": null, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "medium", "trend": "stable",
+      "periods": { "d30": 22 },
+      "lastReport": "2025-04-10"
     },
     {
-      "code": "CA",
-      "cases": 38,
-      "deaths": 9,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-04-20",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 1 },
-      "historicalData": [
-        { "year": 2020, "cases": 2 }, { "year": 2021, "cases": 3 },
-        { "year": 2022, "cases": 3 }, { "year": 2023, "cases": 4 },
-        { "year": 2024, "cases": 5 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "CA", "cases": 38, "deaths": 9,
+      "casesConfirmed": 38, "casesSuspected": null, "casesContact": null,
+      "dataQuality": "high",
+      "alertLevel": "low", "trend": "stable",
+      "periods": { "d7": 0, "d30": 1 },
+      "lastReport": "2025-04-20"
     },
     {
-      "code": "MX",
-      "cases": 29,
-      "deaths": 7,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-04-05",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": 0, "d30": 1 },
-      "historicalData": [
-        { "year": 2020, "cases": 2 }, { "year": 2021, "cases": 2 },
-        { "year": 2022, "cases": 3 }, { "year": 2023, "cases": 4 },
-        { "year": 2024, "cases": 4 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "MX", "cases": 29, "deaths": 7,
+      "casesConfirmed": 22, "casesSuspected": 7, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "low", "trend": "stable",
+      "periods": { "d7": 0, "d30": 1 },
+      "lastReport": "2025-04-05"
     },
     {
-      "code": "KR",
-      "cases": 45,
-      "deaths": 1,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-04-01",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": null, "d30": null },
-      "historicalData": [
-        { "year": 2020, "cases": 3 }, { "year": 2021, "cases": 4 },
-        { "year": 2022, "cases": 4 }, { "year": 2023, "cases": 5 },
-        { "year": 2024, "cases": 6 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "PE", "cases": 47, "deaths": 14,
+      "casesConfirmed": 38, "casesSuspected": 9, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "medium", "trend": "stable",
+      "periods": { "d7": 0, "d30": 2 },
+      "lastReport": "2025-04-12"
     },
     {
-      "code": "CO",
-      "cases": 18,
-      "deaths": 4,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-02-28",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": null, "d30": null },
-      "historicalData": [
-        { "year": 2020, "cases": 1 }, { "year": 2021, "cases": 2 },
-        { "year": 2022, "cases": 2 }, { "year": 2023, "cases": 3 },
-        { "year": 2024, "cases": 3 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "CO", "cases": 18, "deaths": 4,
+      "casesConfirmed": 12, "casesSuspected": 6, "casesContact": null,
+      "dataQuality": "low",
+      "alertLevel": "low", "trend": "stable",
+      "periods": {},
+      "lastReport": "2025-02-28"
     },
     {
-      "code": "MN",
-      "cases": 22,
-      "deaths": 3,
-      "alertLevel": "low",
-      "trend": "stable",
-      "lastReport": "2025-03-01",
-      "periods": { "today": null, "h24": null, "h72": null, "d7": null, "d30": null },
-      "historicalData": [
-        { "year": 2020, "cases": 1 }, { "year": 2021, "cases": 2 },
-        { "year": 2022, "cases": 2 }, { "year": 2023, "cases": 3 },
-        { "year": 2024, "cases": 3 }, { "year": 2025, "cases": 1 }
-      ]
+      "code": "MN", "cases": 22, "deaths": 3,
+      "casesConfirmed": 18, "casesSuspected": 4, "casesContact": null,
+      "dataQuality": "medium",
+      "alertLevel": "low", "trend": "stable",
+      "periods": {},
+      "lastReport": "2025-03-01"
     },
     {
-      "code": "MARITIME",
-      "cases": 14,
-      "deaths": 2,
-      "alertLevel": "critical",
-      "trend": "increasing",
-      "lastReport": "2025-05-11",
+      "code": "MARITIME", "cases": 14, "deaths": 2,
+      "casesConfirmed": 6, "casesSuspected": 5, "casesContact": 14,
+      "dataQuality": "high",
+      "alertLevel": "critical", "trend": "increasing",
       "periods": { "today": 14, "h24": 14, "h72": 14, "d7": 14, "d30": 14 },
-      "historicalData": [
-        { "year": 2025, "cases": 14 }
-      ]
+      "lastReport": "2025-05-11"
     }
   ],
   "globalStats": {
@@ -274,14 +162,11 @@
     "lethalityRate": 33.4,
     "activeOutbreaks": 12,
     "countriesAffected": 35,
+    "source": "OMS, CDC, PAHO, ECDC, ministères de la santé nationaux",
     "periodData": {
-      "today": { "available": false, "note": "Rapports officiels non publiés en temps réel." },
-      "h24":   { "available": false, "note": "Données 24h non disponibles." },
-      "h72":   { "available": false, "note": "Données 72h non disponibles." },
-      "d7":    { "available": true,  "cases": 65,   "deaths": 22,  "note": "Estimation PAHO + ECDC hebdomadaire." },
-      "d30":   { "available": true,  "cases": 262,  "deaths": 89,  "note": "Estimation OMS + PAHO mensuelle." },
-      "y1":    { "available": true,  "cases": 2247, "deaths": 823, "note": "Estimation annuelle 2024 OMS + PAHO." },
-      "all":   { "available": true,  "note": "Données cumulatives depuis 1993." }
+      "d7":  { "available": true, "cases": 65,   "deaths": 22 },
+      "d30": { "available": true, "cases": 262,  "deaths": 89 },
+      "y1":  { "available": true, "cases": 2247, "deaths": 823 }
     }
   }
 }
