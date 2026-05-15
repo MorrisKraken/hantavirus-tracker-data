@@ -351,7 +351,7 @@
     }
   ],
   "globalStats": {
-    "totalCases": 7728,
+    "totalCases": 7729,
     "totalDeaths": 1366,
     "lethalityRate": 17.7,
     "activeOutbreaks": 9,
@@ -396,5 +396,5 @@
       }
     }
   },
-  "lastUpdated": "2026-05-14T23:42:35.124Z"
+  "lastUpdated": "2026-05-15T12:01:05.935Z"
 }
